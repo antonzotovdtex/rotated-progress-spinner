@@ -11,6 +11,12 @@
 # production
 /build
 
+.yarnclean
+yarn-error.log
+
+.cache/
+.yarn/
+
 # misc
 .DS_Store
 .env.local
